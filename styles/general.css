@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.mbody {
+        display: flex;
+        justify-content: space-around;
+      }
+      .sbody {
+        height: 2000px;
+        width: 850px;
+      }
+
+@media only screen and (max-width: 450px) {
+    .mbody {
+        flex-direction: column;
+    }
+}
